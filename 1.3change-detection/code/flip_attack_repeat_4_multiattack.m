@@ -110,14 +110,14 @@ plot(h,E(3,:),'b'); hold on;
 plot(h,E(4,:),'g'); hold on;
 
 %% 
-% for j=1:B
-%     plot(W(j,:),'b'); hold on;
-% end
-% plot(W(B+1,:),'r'); hold on;
-% plot(W(B+2,:),'y'); hold on;
-% plot(W(B+3,:),'k'); hold on;
-% for j=B+1:K
-%    plot(W(j,:),'r'); hold on;
-% end
+for j=1:B
+    plot(W(j,:),'b'); hold on;
+end
+plot(W(B+1,:),'r'); hold on;
+plot(W(B+2,:),'y'); hold on;
+plot(W(B+3,:),'k'); hold on;
+for j=B+1:K
+   plot(W(j,:),'r'); hold on;
+end
 %% 
 % plot(W1,'g'); hold on;
